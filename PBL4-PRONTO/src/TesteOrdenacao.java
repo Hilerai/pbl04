@@ -27,7 +27,7 @@ public class TesteOrdenacao {
                     String tipo = tipos[t];
                     String caminho = arquivos[t][a];
 
-                    int[] dados = LeitorCsvSimples.lerArquivo(caminho);
+                    int[] dados = LeitorCsv.lerArquivo(caminho);
                     int n = dados.length;
 
                     registrarResultado("Bubble Sort", tipo, n, medirTempoBubble(dados));
@@ -160,4 +160,5 @@ public class TesteOrdenacao {
         }
         return c;
     }
+
 }
