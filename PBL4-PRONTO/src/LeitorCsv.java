@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class LeitorCsvSimples {
+public class LeitorCsv {
 
     private static final int TAMANHO_MAXIMO = 10000;
 
@@ -40,4 +40,5 @@ public class LeitorCsvSimples {
 
         return dadosFinais;
     }
+
 }
